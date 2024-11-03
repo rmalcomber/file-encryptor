@@ -1,0 +1,12 @@
+[package]
+name = "lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"
+cbc = "0.1"
+block-padding = "0.3"
+cipher = "0.4"
+hex = "*"
+utils = { path = "../utils" }

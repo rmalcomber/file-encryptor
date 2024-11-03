@@ -1,0 +1,10 @@
+[package]
+name = "file-encryptor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+path-clean = "1.0.1"
+rpassword = "7.0"
+lib = { path = "./lib" }
